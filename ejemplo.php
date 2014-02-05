@@ -19,12 +19,12 @@
 		            data = JSON.parse(data);
 		            for(var i=0; i<data.length;i++){
 		            	$('#campos').append('<tr>'+
-									          '<td>'+data[i].id+'</td>'+
-									          '<td>'+data[i].nombre+'</td>'+
-									          '<td>'+data[i].paterno+'</td>'+
-									          '<td>'+data[i].materno+'</td>'+
-									          '<td><button type="button" class="btn btn-primary btn-xs" id="verdetalle" valor="'+data[i].id+'">ver</button></td>'+
-									      	'</tr>');
+						    '<td>'+data[i].id+'</td>'+
+						    '<td>'+data[i].nombre+'</td>'+
+						    '<td>'+data[i].paterno+'</td>'+
+						    '<td>'+data[i].materno+'</td>'+
+						    '<td><button type="button" class="btn btn-primary btn-xs" id="verdetalle" valor="'+data[i].id+'">ver</button></td>'+
+					            '</tr>');
 		            }
 		    });
 
